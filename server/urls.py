@@ -21,7 +21,7 @@ from apps.endpoints.urls import urlpatterns as endpoints_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^api/v1/', include('apps.endpoints.urls')),
+    #url(r'^api/v1/', include('apps.endpoints.urls')),
 ]
 
 urlpatterns += endpoints_urlpatterns

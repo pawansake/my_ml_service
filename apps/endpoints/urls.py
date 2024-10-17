@@ -18,4 +18,7 @@ from . import views
 
 urlpatterns = [
     url(r"^api/v1/", include(router.urls)),
+    url(
+        r"^api/v1/(?P<endpoint_name>.+)/predict$", PredictView.as_view(), name="predict"
+    ),
 ]
