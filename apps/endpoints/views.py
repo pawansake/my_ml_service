@@ -1,5 +1,7 @@
 from rest_framework import viewsets
 from rest_framework import mixins
+from apps.endpoints.serializers import EndpointSerializer
+
 
 from apps.endpoints.models import Endpoint
 from apps.endpoints.serializers import EndpointSerializer

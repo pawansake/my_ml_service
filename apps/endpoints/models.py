@@ -1,3 +1,4 @@
+print("Importing models.py")  # Place this at the top of models.py
 from django.db import models
 
 # Create your models here.
